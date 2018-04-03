@@ -1,18 +1,45 @@
----
-layout: default
-title: 我的Blog
----
-
-　　<h2>{{ page.title }}</h2>
-
-　　<p>最新文章</p>
-
-　　<ul>
-
-　　　　{% for post in site.posts %}
-
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-
-　　　　{% endfor %}
-
-　　</ul>
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <title>Yidadaa的个人博客</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link href="//cdn.bootcss.com/viewerjs/0.10.0/viewer.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.username = 'Yidadaa' // 你的 github 账户名
+      window.reponame = 'Yidadaa.github.io' // 你用来存放博客的仓库名
+      window.links = [
+        // 头部导航链接
+        ['主页', 'https://blog.simplenaive.cn']
+      ]
+      window.friendLinks = [
+        // 友情链接
+        ['DragonZZZ', 'http://dragonzzzz.github.io']
+      ]
+      window.viewerConfig = {
+        // 图片查看器的配置，详情请查阅viewerjs的文档
+        navbar: false,
+        toolbar: {
+          prev: 0,
+          play: { show: 0 },
+          next: 0,
+          rotateLeft: 0,
+          rotateRight: 0,
+          flipHorizontal: 0,
+          flipVertical: 0,
+          zoomIn: 1,
+          zoomOut: 1,
+          oneToOne: 1,
+          reset: 1
+        }
+      }
+    </script>
+    <script src="//cdn.bootcss.com/fetch/2.0.3/fetch.min.js"></script>
+    <script src="//cdn.bootcss.com/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <script src="//blog.simplenaive.cn/Issue-Blog/dist/build.js"></script>
+    <script src="//cdn.bootcss.com/viewerjs/0.10.0/viewer.min.js"></script>
+  </body>
+</html>

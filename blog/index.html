@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<script>
+  var _hmt = _hmt || [];
+  (function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4bcd9af5d6b519a7e464687ae6bdf579";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+<head>
+  <meta charset="utf-8">
+  <title>ciuji的个人博客</title>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link href="//cdn.bootcss.com/viewerjs/0.10.0/viewer.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.username = 'ciuji' // 你的 github 账户名
+    window.reponame = 'ciuji.github.io' // 你用来存放博客的仓库名
+    window.authToken = 'f7ce4cbdd26d384c344eb86742715e0b6c5de5ef' // 用于突破github api的访问限制，这是一个可选参数
+    window.links = [
+      // 头部导航链接
+      ['主页', '']
+      ['github','https://github.com/ciuji']
+    ]
+    window.friendLinks = [
+      // 友情链接
+      ['lianqian11', 'https://lianqing11.github.io'],
+      ['Soundquiet', 'https://soundquiet.github.io']
+    ]
+    window.viewerConfig = {
+      // 图片查看器的配置，详情请查阅viewerjs的文档
+      navbar: false,
+      toolbar: {
+        prev: 0,
+        play: { show: 0 },
+        next: 0,
+        rotateLeft: 0,
+        rotateRight: 0,
+        flipHorizontal: 0,
+        flipVertical: 0,
+        zoomIn: 1,
+        zoomOut: 1,
+        oneToOne: 1,
+        reset: 1
+      }
+    }
+  </script>
+  <script src="//cdn.bootcss.com/fetch/2.0.3/fetch.min.js"></script>
+  <script src="//cdn.bootcss.com/babel-polyfill/6.26.0/polyfill.min.js"></script>
+  <script src="/dist/build.js"></script>
+  <script src="//cdn.bootcss.com/viewerjs/0.10.0/viewer.min.js"></script>
+</body>
+
+</html>

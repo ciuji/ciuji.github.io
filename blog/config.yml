@@ -13,7 +13,7 @@ authors: ciuji
 # token
 # token should be separated by '#'
 # example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
-token: f#7ce4cbdd26d384c344eb86742715e0b6c5de5ef
+token: 8#9366d8b4f5aee7a38365fdc563b023b525310c0
 
 # posts per page
 perpage: 10

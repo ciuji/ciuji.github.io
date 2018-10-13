@@ -1,0 +1,30 @@
+# site title
+title: ciuji's blog
+
+# user name or organization name
+user: ciuji
+
+# issue repository
+repository: ciuji.github.io
+
+# multi-author
+authors: ciuji
+
+# token
+# token should be separated by '#'
+# example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
+token: f#7ce4cbdd26d384c344eb86742715e0b6c5de5ef
+
+# posts per page
+perpage: 10
+
+
+# advance config
+
+# organization repository (?)
+organization: false
+
+# post order
+# order by create time" or "update time"
+# 'UPDATED_AT' or 'CREATED_AT'
+order: 'CREATED_AT'

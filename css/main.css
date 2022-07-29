@@ -37,3 +37,67 @@
     margin-top: 8vh;
     margin-bottom: 5vh;
 }
+
+.project {
+    max-width: 46em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    line-height: 1.8;
+}
+
+.project h2 {
+    font-family: "Montserrat",sans-serif;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+.publication-item {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+
+.pubImg {
+    flex-shrink: 0;
+    height: 6rem;
+    width: 100px;
+    /* width: 12rem; */
+    background-size: cover;
+    background-position: top left;
+    transition: all 2s;
+    /* border: 1px solid #333; */
+    margin-right: 10px;
+}
+.pubImg:hover{
+    background-position:bottom right;
+}
+
+.pubAuthor {
+    font-size: 14px;
+}
+
+
+.pubConf {
+    font-size: 14px;
+}
+
+
+.pubPDF {
+    font-size: 12px;
+}
+
+.dummyImg {
+    background-image: linear-gradient(45deg, #75bab4 25%, #F6F0CF 25%, #F6F0CF 50%, #75bab4 50%, #75bab4 75%, #F6F0CF 75%, #F6F0CF 100%);
+    background-size: 28.28px 28.28px;
+}
+
+.skill {
+    font-weight: bold;
+}
+
+.publicationView {
+    margin-top: 10px
+}
